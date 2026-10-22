@@ -1,0 +1,74 @@
+@media (max-width: 968px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--dark);
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .header-cta {
+        display: none;
+    }
+
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-stats {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-stats {
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .stat h3 {
+        font-size: 32px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    section {
+        padding: 70px 0;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        text-align: center;
+    }
+}

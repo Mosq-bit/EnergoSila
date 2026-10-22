@@ -1,0 +1,28 @@
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.advantage {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.advantage-number {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.advantage h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.advantage p {
+    color: var(--gray);
+    font-size: 14px;
+}
